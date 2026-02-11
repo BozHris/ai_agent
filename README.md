@@ -1,11 +1,5 @@
-diff --git a/README.md b/README.md
-index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..9e1066b2178b667a8c61fe62fd5a6c6449c0138f 100644
---- a/README.md
-+++ b/README.md
-@@ -0,0 +1,104 @@
-+# ai-agent
-+
-+A small Python coding agent powered by Google Gemini that can inspect files, read file contents, write files, and run Python scripts inside a constrained working directory.
+
+A small Python coding agent powered by Google Gemini that can inspect files, read file contents, write files, and run Python scripts inside a constrained working directory.
 +
 +## What this project does
 +
@@ -107,3 +101,4 @@ index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..9e1066b2178b667a8c61fe62fd5a6c64
 +
 +- The current implementation keeps tool-call outputs in-memory and iterates up to 20 rounds.
 +- `main.py` currently targets `gemini-2.5-flash` explicitly.
+
